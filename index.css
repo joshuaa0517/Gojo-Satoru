@@ -8,8 +8,10 @@ header {
 
 body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
 
 }
 
@@ -18,4 +20,49 @@ header img {
     width: 250px;
     border: 20px solid whitesmoke;
     
+}
+
+main {
+    margin: 0 auto;
+    padding: 20px 0;
+    max-width: 750px
+    
+}
+
+main img {
+    width: 750px
+}
+
+p.caption {
+    color: grey;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 0;
+    padding: 0;
+    color: #999999;
+}
+
+body h1 {
+    font-size: 70px;
+}
+
+body h2 {
+    font-size: 30px;
+}
+
+a {
+    color:#27006B;
+}
+
+a:hover{
+    color: white;
+    background-color: #27006B;
+}
+
+footer {
+    background-color: #27006B;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 40px 0;
 }
